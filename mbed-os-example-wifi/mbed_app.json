@@ -1,0 +1,17 @@
+{
+    "config": {
+        "wifi-ssid": {
+            "help": "WiFi SSID",
+            "value": "\"TP-Link_3E14\""
+        },
+        "wifi-password": {
+            "help": "WiFi Password",
+            "value": "\"wifi19172064\""
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true
+        }
+    }
+}
